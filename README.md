@@ -1,6 +1,6 @@
 # CSE 251A Projects (UC San Diego, Winter 2026)
 
-My three programming projects for CSE 251A, ML: Learning Algorithms. Each folder holds my own code and, where available, my written report. Course handouts, starter data and pretrained weights are not included.
+My three programming projects for CSE 251A, ML: Learning Algorithms. Each folder holds my own code and my written report. Course handouts, starter data and pretrained weights are not included.
 
 ## Project 1: Prototype selection for 1-NN with Learning Vector Quantization
 
@@ -12,7 +12,7 @@ Selects a small set of prototypes for a 1-nearest-neighbor classifier on MNIST u
 
 `project2-coordinate-descent/`
 
-Implements Gauss-Southwell coordinate descent with a per-coordinate Newton step for logistic regression on the UCI Wine data (first two classes), compares it with random coordinate selection, and adds a sparse variant with hard thresholding.
+Implements Gauss-Southwell coordinate descent with a per-coordinate Newton step for logistic regression on the UCI Wine data (first two classes), compares it with random coordinate selection, and adds a k-sparse variant with hard thresholding. Gauss-Southwell converges faster than random selection, and about 10 of the 13 coordinates are enough to reach nearly the unconstrained loss.
 
 ## Project 3: Adversarial examples for neural networks
 
